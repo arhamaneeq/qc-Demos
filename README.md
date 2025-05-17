@@ -1,8 +1,8 @@
 # The Quantum Demos
-This repository contains a series of demonstrations of well known quantum algorithms used to demonstrate key techniques, written in `Qiskit`, `Cliq`, `Q#`, and `OpenQASM`.
+This repository contains a series of demonstrations of well known quantum algorithms used to demonstrate key techniques, written in `Qiskit`, `Pennylane`, `Cliq`, `Q#`, and `OpenQASM`.
 
 ## List of Demos
-- `Bell States` 
+- `Bell States`
 - `Arbitrary GHZ States`
 - `Teleportation`
 - `Deutch-Josza Algorithm`
@@ -20,3 +20,13 @@ This repository contains a series of demonstrations of well known quantum algori
 - `Arbitrary Basis Measurement`
 - `Tomography`
 - `Trotterization`
+
+## Dependencies
+
+Open the root directory and enter 
+
+```bash
+python -m venv .venv/Qiskit
+python -m venv .venv/Pennylane
+python -m venv .venv/Cirq
+```

@@ -1,2 +1,5 @@
+.venv/Qiskit/
+.venv/Pennylane/
+.venv/Qiskit/
 .venv/
 __pycache__/

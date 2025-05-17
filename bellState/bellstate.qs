@@ -2,6 +2,7 @@ namespace BellState {
     open Microsoft.Quantum.Intrinsic;
     open Microsoft.Quantum.Measurement;
     open Microsoft.Quantum.Canon;
+    open Microsoft.Quantum.Core;
 
     operation BellState(state : Int) : Result[] {
         use qubits = Qubit[2];
