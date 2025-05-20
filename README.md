@@ -4,6 +4,7 @@ This repository contains a series of demonstrations of well known quantum algori
 ## List of Demos
 - `Bell States`
 - `Arbitrary GHZ States`
+- `W-States`
 - `Teleportation`
 - `CHSH`
 - `Deutch-Josza Algorithm`
