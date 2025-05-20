@@ -8,7 +8,7 @@ $$
 |00\rangle, |01\rangle, |10\rangle, |11\rangle
 $$
 
-But this is not the only valid or useful basis. By applying Hadamard ($H$) and CNOT ($X$) gates to the computational basis, we can construct an alternative set of orthonormal basis states known as the Bell states. These are not only orthogonal but also maximally entangled with respect to the computational basis. The four Bell states are:
+But this is not the only valid or useful basis. By applying Hadamard ($H$) and CNOT ($CX$) gates to the computational basis, we can construct an alternative set of orthonormal basis states known as the Bell states. These are not only orthogonal but also maximally entangled with respect to the computational basis. The four Bell states are:
 
 $$
 |\Phi^+\rangle = \frac{|00\rangle + |11\rangle}{\sqrt{2}}
