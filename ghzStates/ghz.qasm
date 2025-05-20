@@ -1,4 +1,5 @@
-OPENQASM 3;
+OPENQASM 3.0;
+include "stdgates.inc";
 
 input uint[32] n;
 

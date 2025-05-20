@@ -5,7 +5,7 @@ def createGHZCircuit(N):
 
     @qml.qnode(dev)
     def circuit():
-        qml.H(0)
+        qml.H([0])
         for i in range(1,N):
             qml.CNOT([0,i])
 
