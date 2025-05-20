@@ -5,6 +5,7 @@ This repository contains a series of demonstrations of well known quantum algori
 - `Bell States`
 - `Arbitrary GHZ States`
 - `Teleportation`
+- `CHSH`
 - `Deutch-Josza Algorithm`
 - `Grover's Algorithm`
 - `Simon's Algorithm`
