@@ -2,26 +2,61 @@
 This repository contains a series of demonstrations of well known quantum algorithms used to demonstrate key techniques, written in `Qiskit`, `Pennylane`, `Cliq`, `Q#`, and `OpenQASM`.
 
 ## List of Demos
-- `Bell States`
-- `Arbitrary GHZ States`
-- `W-States`
-- `Teleportation`
-- `CHSH`
-- `Deutch-Josza Algorithm`
-- `Grover's Algorithm`
-- `Simon's Algorithm`
-- `Bernstein-Vazirani Algorithm`
-- `Quantum Fourier Transform`
-- `Quantum Phase Estimation`
-- `Swap Tests`
-- `Variational Circuits`
-- `Parameter Shift Rule`
-- `Quantum Approximate Optimization Algorithms`
-- `Error Mitigation Techniques` / `Zero-noise Extrapolation`
-- `Quantum Channels and Noise`
-- `Arbitrary Basis Measurement`
-- `Tomography`
-- `Trotterization`
+
+### States & Entanglement
+- Bell States
+- GHZ States
+- W States
+- Dicke States
+- Quantum Teleportation
+- Superdense Coding
+- CHSH Inequality
+- Entanglement Swapping
+
+### Algorithms
+- Deutsch-Josza Algorithm
+- Bernstein Vazirani Algorithm
+- Simon's Algorithm
+- Grover's Algorithm
+- Quantum Fourier Transform (QFT)
+- Quantum Phase Estimation (QPE)
+- Shor's Algorithm
+- HHL Algorithm
+- Quantum Counting
+- Quantum Walks
+- Amplitude Estimation
+- VQE for Ground State Estimation
+
+### Techniques
+- Variational Circuits
+- Parameter Shift Rule
+- Swap Test
+- Trotterization
+- Circuit Cutting
+- ZX Calculus
+- Ancilla Based Decomposition
+- Quantum Circuit Knitting
+
+### Noise & Error Mitigation
+- Quantum Channels & Noise Models
+- Zero-Noise Extrapolation
+- Probabilistic Error Cancelation
+- Clifford Data Regression
+- Calibration Matrix Inversion
+- Noise Adaptive Circuit Recompilation
+- Fidelity Estimation Under Noise
+- Dynamic Decoupling Pulse Schedules
+
+### Measurement & Characterisation
+- Arbitrary Basis Measurement & POVMs
+- Quantum State Tomography
+- Quantum Process Tomography
+- Wigner Function Visualisation
+- Fidelity Estimation
+- Entanglement Entropy Estimation
+- Pauli Expectation Values
+- Shadow Tomography
+- Cross Entropy Benchmarking
 
 ## Dependencies
 
