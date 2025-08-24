@@ -5,9 +5,11 @@ Dicke States, named after Robert Dicke, are a generalisation still of W-States, 
 $$
 |D_k^n\rangle = \frac{1}{\sqrt{{n}\choose{k}}} \sum_{w(x)=k}|x\rangle
 $$
+
 where $w(x)$ is the Hamming weight of a bitstring $x$ of length $n$. That is, Dicke States are uniform superpositions over all $n$-qubit basis states with exactly $k$-excitations. 
 
 We can utilise the following decomposition to construct a Dicke State.
+
 $$
 |D_k^n\rangle = \sqrt{\frac{k}{n}}|D_{k-1}^{n-1}\otimes|1\rangle + \sqrt{\frac{n-k}{n}}|D_l^{n-1}\rangle\otimes|0\rangle
 $$
