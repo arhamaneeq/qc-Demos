@@ -1,4 +1,6 @@
-#TODO: figure what the FUCK is wrong with qiskit version control
+from qiskit import QuantumCircuit
+from qiskit_aer import Aer
+from qiskit import transpile
 
 def bellCircuit(state):
 
@@ -29,7 +31,8 @@ qc = bellCircuit("Φ+")
 
 print(qc.draw())
 
-backend = Aer.get_backend("qasm_simulator")
-result = execute(qc, backend, shots = 1024)
+sim = Aer.get_backend("qasm_simulator")
+com = transpile(qc, sim)
+result = sim.run(com, shots=1000).result()
 
 print(result.get_counts())
