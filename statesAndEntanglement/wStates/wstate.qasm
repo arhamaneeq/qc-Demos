@@ -1,9 +1,9 @@
 OPENQASM 3.0;
-includes "stdgates.inc";
+include "stdgates.inc";
 
 input int N;
-qubit q[N];
-bit c[N];
+qubit[N] q;
+bit[N] c;
 
 def θ(int k, int N) -> angle {
     return 2.0 * acos(sqrt(float(N - k) / float(N - k + 1)))
